@@ -268,16 +268,16 @@ var choose1 = true;//判断是否是流入
 
 		var app = new Jusfoun3dMapLib.ChinaMapWithFlow({
 				cameraPosition: [-3.1829787468794164, -266.091048464767, 367.57426384786663],
-                crustsTexture: '../../images/quality-testing-crust.png',
-                surfacesTexture: '../../images/quality-testing-surface-2.png',
-                shadowTexture: '../../images/china-outline-shadow.png',
+                crustsTexture: '../images/quality-testing-crust.png',
+                surfacesTexture: '../images/quality-testing-surface-2.png',
+                shadowTexture: '../images/china-outline-shadow.png',
                 markerTextures: [
-                    "../../images/marker_yellow_normal.png",
-                    "../../images/marker_yellow_emphasis.png",
-                    "../../images/marker_red_normal.png", 
-                    "../../images/marker_red_emphasis.png",
-                    "../../images/marker_blue_normal.png",
-                    "../../images/marker_blue_emphasis.png"
+                    "../images/marker_yellow_normal.png",
+                    "../images/marker_yellow_emphasis.png",
+                    "../images/marker_red_normal.png", 
+                    "../images/marker_red_emphasis.png",
+                    "../images/marker_blue_normal.png",
+                    "../images/marker_blue_emphasis.png"
                 ],
                 flowData: flowData,
                 markerData: markerData,

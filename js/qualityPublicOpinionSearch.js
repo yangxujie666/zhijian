@@ -21,6 +21,7 @@ $(function(){
 	    pageCount:5,
 	    jump:true,
 	    coping:true,
+	    count:2,
 	    homePage:'首页',
 	    endPage:'末页',
 	    prevContent:'上页',

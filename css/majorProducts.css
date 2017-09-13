@@ -17,6 +17,12 @@
 	height:32px;
 	background:url(../images/search_btn.png) no-repeat;
 }
+.set-list-btn:hover,.search-input-btn:hover,.report-btn:hover{
+	opacity: .7;
+}
+.major-top-table table tbody tr:hover{
+	background: rgba(0, 41, 176, 0.25);
+}
 .content{
 	display: flex;
 	flex-direction: column;

@@ -563,7 +563,9 @@
 	margin-bottom: 10px;
 	cursor: pointer;
 }
-
+.province-list-ul li:hover{
+	opacity: .7;
+}
 .up-down {
 	margin-left: 20px;
 	width: 36px;
@@ -617,6 +619,9 @@
 }
 .report-btnb{
 	width: 9%;
+}
+.report-btnb:hover,.up-down:hover,.report-btn:hover,.set-list-btn:hover,#page a:hover,#page span:hover{
+	opacity: .7;
 }
 .province-list-ul li.active {
 	border: 1px solid #006cfa;

@@ -13,6 +13,9 @@ body{
 	margin-left:20px;
 	background:url(../images/set_bg.png) no-repeat;
 }
+.set-list-btn:hover,.search-input-btn:hover,.report-btn:hover,.alert-top p:hover,.type-switch p:hover{
+	opacity: .7;
+}
 .search-input-btn{
 	width:36px;
 	height:32px;
@@ -297,6 +300,9 @@ body{
 	height: 30px;
 	background-size: 100% 100%;
 }
+.select2-container--default .select2-selection--single .select2-selection__arrow:hover{
+	opacity: .9;
+}
 .select2-container--default .select2-selection--single .select2-selection__arrow b{
 	border-color: #000 transparent transparent transparent;
 }
@@ -324,4 +330,8 @@ body{
 /*地图*/
 .chart{
 	height: 100%;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__clear{
+	display: none;
 }

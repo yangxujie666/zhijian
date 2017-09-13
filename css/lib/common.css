@@ -62,6 +62,9 @@ html,body{
 	color: #7bf4ff;
 	font-size: 0.18rem;
 }
+.header-tab li:hover{
+	opacity: .7;
+}
 .header-tab li.active a{
 	background: url(../../images/menu_bg1.png) no-repeat center bottom;
 	background-size:100% 42px;
@@ -130,6 +133,9 @@ html,body{
 .set-list-ul li.active {
 	border:1px solid #006cfa;
 	background: rgba(0, 38, 163, 0.8);
+}
+.set-list-ul li:hover{
+	opacity: .7;
 }
 .set-list-btn{
 	width:80px;

@@ -108,8 +108,12 @@
 	width:200px;
 }
 
-
-
+.detiles-info-tabul li:hover{
+	opacity: .7;
+}
+.table tbody tr:not(:nth-child(1)):hover{
+	background: rgba(0, 41, 176, 0.25);
+}
 
 
 
